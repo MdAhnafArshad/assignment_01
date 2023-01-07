@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* header style */
+    .header{
+        width: 100%;
+        height: 800px;
+        background-image: url('../asset/images/banner/banner1.png');
+        background-repeat: no-repeat; 
+    }
+    
+
+
+
+    /* banner style */
+   .header-banner{
+        margin-right: 0px;
+        padding-top: 280px;
+        padding-right: 150px;
+        text-align:right;
+    }
+
+    .header-banner-title{
+        font-weight: 700;
+        font-size: 65px;
+    }
+    .header-banner p{
+        margin-bottom:10px;
+    }
+    .header-btn-contact{
+        margin-top: 10px;
+        padding: 20 25;
+        border: 0px;
+        border-radius: 5px;
+        width: 160px;
+        height: 64px;
+        color: #FFFFFF;
+        background-color: #F15B22;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+
+
+
+    /* main banner */
+    .main-banner{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        border: #F15B22 solid 2px;
+        /* gap: 24px; */
+    }
+    .person{
+        border: #F15B22 solid 2px;
+        align-items: center;
+    }
+    .main-banner-discription{
+        border: #F15B22 solid 2px;
+    }
+    .main-banner img{
+        margin: 130px 200px;
+        width: 500px;
+        height: 600px;
+        
+    }
+    .main-banner-discription{
+        /* margin-left: 150px; */
+        width: 400px;
+        height: 500px;
+        margin-right: 50px;
+        align-items: center;
+    }
+    .main-banner-discription h3{
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .main-banner-discription p{
+        margin: 5px;
+        padding: 10px 0px;
+        text-align: left;
+    }
+    
+    ul li{
+        margin: 5px;
+        padding: 5px 10px;
+        list-style: none;
+    }
+
+
+
+
+    /* plans section */
+    .plans{
+        margin: 130px 200px;
+        border: #F15B22 solid 2px;
+        width: 1140px;
+        height: 300px;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .plans h3{
+        text-align: center;
+        margin: 10px 20px;
+        font-weight: 700;
+        font-size: 40px;
+        
+    }
+
+    .plan-icons{
+        margin: 10px 20px;
+        /* border: #F15B22 solid 2px; */
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+    .plans-detals{
+        /* margin: 20px;
+        padding: 20px; */
+        align-items: center;
+    }
+    .plans-detals p {
+        /* text-align: center; */
+        color: #737272;
+        
+    }
+    .plan-title{
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    /* positive section */
+    .positive{
+        margin: 130px 200px;
+        width: 1140px;
+        height: 300px;
+        border: #F15B22 solid 2px;
+        background-image:url('/asset/images/gradient2.png'), url('/asset/images/watch.png');
+        background-position: center, center;
+        background-repeat: no-repeat;
+    }
+
+    .hand-clock{
+        padding: 60px 50px;
+    }
+    .hand-clock h5{
+        font-weight: 700;
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .btn-hand-clock{
+        width: 160px;
+        height: 64px;
+        border: 0;
+        border-radius: 5px;
+        color: #F15B22;
+        background-color: #FFFFFF;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+
+
+    /* footer section */
+    footer{
+        height: 577px;
+        border: #F15B22 solid 2px;
+        background: #151414;
+        color: #F8F8F8;
+        display: flex;
+    }
+
+    /* footer left */
