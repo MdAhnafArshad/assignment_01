@@ -1,3 +1,5 @@
+
+/* universe */
 *{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -5,7 +7,7 @@
 
 
 
-/* header style */
+/* header section */
     .header{
         width: 100%;
         height: 800px;
@@ -16,7 +18,7 @@
 
 
 
-    /* banner style */
+    /* header-banner style */
    .header-banner{
         margin-right: 0px;
         padding-top: 280px;
@@ -47,21 +49,19 @@
 
 
 
-    /* main banner */
+    /* main section */
     .main-banner{
         display: flex;
         align-items: center;
         /* justify-content: space-between; */
-        /* border: #F15B22 solid 2px; */
         /* gap: 24px; */
     }
     .person{
-        /* border: #F15B22 solid 2px; */
         align-items: center;
     }
-    .main-banner-discription{
-        /* border: #F15B22 solid 2px; */
-    }
+    /* .main-banner-discription{
+        
+    } */
     .main-banner img{
         margin: 130px 200px;
         width: 500px;
@@ -95,7 +95,7 @@
 
 
 
-    /* plans section */
+    /* My plans section */
     .plans{
         margin: 130px 200px;
         /* border: #F15B22 solid 2px; */
@@ -119,12 +119,17 @@
         justify-content: center;
         gap: 100px;
     }
-    .plans-detals{
-        /* margin: 20px;
-        padding: 20px; */
-        align-items: center;
+    .plans-details{
+       align-items: center;
     }
-    .plans-detals p {
+    .plans-details img{
+        margin-left: 0px;
+        padding-bottom: 10px;
+        width: 90px;
+        height: 90px;
+
+    }
+    .plans-details p {
         /* text-align: center; */
         color: #737272;
         
@@ -139,7 +144,6 @@
         margin: 130px 200px;
         width: 1140px;
         height: 300px;
-        /* border: #F15B22 solid 2px; */
         background-image:url('/asset/images/gradient2.png'), url('/asset/images/watch.png');
         background-position: center, center;
         background-repeat: no-repeat;
@@ -170,7 +174,6 @@
     /* footer section */
     footer{
         height: 577px;
-        /* border: #F15B22 solid 2px; */
         background: #151414;
         color: #F8F8F8;
         display: flex;
@@ -181,7 +184,6 @@
         width: 485px;
         height: 317px;
         margin: 130px 200px;
-        /* border: #F15B22 solid 2px; */
     }
     .footer-left h5{
         font-weight: 700;
@@ -209,8 +211,6 @@
         width: 325px;
         height: 204px;
         margin: 130px 200px;
-        /* border: #F15B22 solid 2px; */
-
     }
     .footer-right h6{ 
         margin: 10px 5px;
