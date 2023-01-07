@@ -52,15 +52,15 @@
         display: flex;
         align-items: center;
         /* justify-content: space-between; */
-        border: #F15B22 solid 2px;
+        /* border: #F15B22 solid 2px; */
         /* gap: 24px; */
     }
     .person{
-        border: #F15B22 solid 2px;
+        /* border: #F15B22 solid 2px; */
         align-items: center;
     }
     .main-banner-discription{
-        border: #F15B22 solid 2px;
+        /* border: #F15B22 solid 2px; */
     }
     .main-banner img{
         margin: 130px 200px;
@@ -98,7 +98,7 @@
     /* plans section */
     .plans{
         margin: 130px 200px;
-        border: #F15B22 solid 2px;
+        /* border: #F15B22 solid 2px; */
         width: 1140px;
         height: 300px;
         /* justify-content: center;
@@ -106,7 +106,7 @@
     }
     .plans h3{
         text-align: center;
-        margin: 10px 20px;
+        margin:  40px;
         font-weight: 700;
         font-size: 40px;
         
@@ -139,7 +139,7 @@
         margin: 130px 200px;
         width: 1140px;
         height: 300px;
-        border: #F15B22 solid 2px;
+        /* border: #F15B22 solid 2px; */
         background-image:url('/asset/images/gradient2.png'), url('/asset/images/watch.png');
         background-position: center, center;
         background-repeat: no-repeat;
@@ -170,10 +170,77 @@
     /* footer section */
     footer{
         height: 577px;
-        border: #F15B22 solid 2px;
+        /* border: #F15B22 solid 2px; */
         background: #151414;
         color: #F8F8F8;
         display: flex;
     }
 
     /* footer left */
+    .footer-left{
+        width: 485px;
+        height: 317px;
+        margin: 130px 200px;
+        /* border: #F15B22 solid 2px; */
+    }
+    .footer-left h5{
+        font-weight: 700;
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+
+    .email{
+        margin: 10px 0px;
+    }
+    .phone{
+        margin: 10px 0px;
+    }
+    .footer-icon{
+        padding: 10px 0px;
+    }
+    .footer-icon img{
+        padding:  10px;
+    }
+
+
+
+    /* footer-right */
+    .footer-right{
+        width: 325px;
+        height: 204px;
+        margin: 130px 200px;
+        /* border: #F15B22 solid 2px; */
+
+    }
+    .footer-right h6{ 
+        margin: 10px 5px;
+        font-weight: 600;
+        font-size: 25px;
+
+    }
+    .footer-right p{
+        font-weight: 400;
+        font-size: 16px;
+        text-align: left;
+        margin: 10px;
+        padding: 10px;
+    }
+   
+    .footer-right input{
+        margin-bottom: 24px;
+        border: 0;
+        /* width: 325px;
+        height: 64px; */
+        padding: 18px 30px;
+        border: #737272 1px solid;
+        border-radius: 5px;
+        background-color: #151414;
+    }
+    .btn-footer-Subscribe{
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        color: #F15B22;
+        font-weight: 600;
+        font-size: 20px;
+    }
